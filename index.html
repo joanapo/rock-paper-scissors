@@ -8,11 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Odibee+Sans&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="scoreboard">
-        <h2>Score 1:0</h2>
+        <h2 id="score">Score 0:0</h2>
     </div>
     <div class="header">
         <h1 class="game-title">Rock Paper Scissors</h1>
@@ -20,18 +19,19 @@
     </div>
     <div class="game-block">
         <div class="button">
-            <img src="assets/rock.png" alt="Rock">
+            <img src="assets/rock.png" alt="rock">
         </div>
         <div class="button">
-            <img src="assets/paper.png" alt="Paper">
+            <img src="assets/paper.png" alt="paper">
         </div>
         <div class="button">
-            <img src="assets/scissors.png" alt="Scissors">
+            <img src="assets/scissors.png" alt="scissors">
         </div>
     </div>
 
     <div class="result">
-        <h2>It's a tie! You both played rock.</h2>
+        <h2 id="result-text">Good luck!</h2>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
