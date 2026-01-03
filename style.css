@@ -1,0 +1,39 @@
+body {
+    background-color: #f7e3fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: "DynaPuff", system-ui;
+    color: #776391;
+    text-shadow: 2px 3px 5px #332B3F;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Odibee Sans", sans-serif;
+    color: #c26dbc;
+}
+
+.scoreboard {
+    margin-left: auto; 
+    margin-right: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.game-block {
+    display: flex;
+}
+
+.button {
+    margin: 20px;
+    border: 5px solid #776391;
+    border-radius: 8px;
+}
